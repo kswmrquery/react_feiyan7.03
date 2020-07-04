@@ -1,0 +1,36 @@
+
+
+.title {
+    margin-top: 10px;
+    font-size: 20px;
+}
+.data{
+    margin-top: 15px;
+}
+.datalist {
+    margin-top:140px;
+}
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 5px 5px;
+    text-align: center;
+}
+li{
+    height: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+span{
+    flex: 1;
+}
+
+li:nth-child(odd){
+    background-color: #efefef;
+}
+
+.area{
+    color:#10aeb5;
+    font-weight: 600;
+}

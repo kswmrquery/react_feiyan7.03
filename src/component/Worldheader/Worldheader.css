@@ -1,0 +1,40 @@
+
+.headertitle{
+    margin-top:30px;
+    font-size:20px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.Myheader{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.headerdate{
+    margin-top: -12px;
+    font-size:14px;
+    margin-bottom: 17px;
+    padding-left: 30px;
+    color: #999999;
+}
+.header_element{
+    -webkit-box-flex:1;
+    flex: 1 1 25%;
+    text-align: center;
+}
+
+.element_title{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.element_tot{
+    font-size: 26px;
+    font-weight: 650;
+}
+
+.element_new{
+    font-size: 14px;
+    font-weight: 400;
+}

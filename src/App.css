@@ -1,0 +1,72 @@
+
+
+.main {
+    background-color: #10aeb5;
+    margin-top: 20px;
+}
+
+.myApp {
+    min-height: 61.25rem;
+    max-width: 1024px;
+    margin: 0 auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    line-height: normal;
+    background-color: #10aeb5;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #E3E6EB;
+    position: relative;
+}
+
+.navitem {
+    flex: 1 1 50%;
+    text-align: center;
+}
+
+.navactive {
+    font-weight: 800;
+    color:#10aeb5;
+}
+
+.bar {
+    width:110px;
+    height: 5px;
+    background-color: #10aeb5;
+    position: absolute;
+    bottom:0;
+    transition: all 0.3s ease;
+}
+.header {
+    background-image: url('./img/header.png');
+    background-size: 695px 189px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    padding: 0;
+    height: 187px;
+    margin-bottom: -.625rem;
+}
+
+.header h3{
+    color: #fff;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.header h1{
+    color: #fff;
+    padding-left: 40px;
+}
+.myTable {
+    background-color: #fff;
+    position: relative;
+    border-radius: .625rem;
+    margin: -.5rem 0 1.5rem;
+    padding: .917rem 1.0625rem 1.875rem;
+}
+
